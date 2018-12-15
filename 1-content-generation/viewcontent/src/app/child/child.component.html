@@ -1,0 +1,50 @@
+
+
+<div *delay = "3000">
+  !!!!VIEW!!!!
+</div>
+<!-- 
+<ul>
+  <li *ngFor="let i of [1,2,3,4,5]">
+     <h1 *delay="i * 500">{{i}}</h1>
+  </li>
+</ul> -->
+
+
+
+<ng-content select="main"></ng-content>
+
+<ng-template #t>
+
+  <h1>My Template</h1>
+
+</ng-template>
+
+<ng-template #m>
+
+    <h1>My Template2</h1>
+  
+  </ng-template>
+
+
+
+<ng-container *ngTemplateOutlet="m">
+   
+   
+
+</ng-container>
+
+
+<ng-container #host></ng-container>
+
+<ng-container *ngComponentOutlet="mybanner"></ng-container>
+
+
+{{1 | reverse }}
+
+{{1 | reverse }}{{1 | reverse }}{{1 | reverse }}
+{{1 | reverse }}
+
+
+
+<input>

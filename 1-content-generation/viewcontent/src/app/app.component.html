@@ -1,0 +1,30 @@
+
+
+
+<app-child>
+
+   <h1>TITLE</h1>
+
+   
+ <div ngProjectAs="main">
+  <main colory #c="colory">
+    !!!!CONTENT!!!!!
+  </main>
+  <button (click)="c.changeColor('green')">Change Color</button>
+ </div>
+
+
+
+  <div #h>
+    my content
+  </div>
+
+  <app-item></app-item>
+  <app-item></app-item>
+  <app-item></app-item>
+  <app-item></app-item>
+  <app-item></app-item>
+
+
+
+</app-child>
