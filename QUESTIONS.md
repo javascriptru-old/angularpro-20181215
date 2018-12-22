@@ -1,5 +1,7 @@
 - Overwrite box directive (ngIf)
 - Link to idea about remove modules
 - Simple explanation of ngFor parameter
-- Ivy example
-- SSR working example
+- Ivy example +
+- SSR working example +
+- SW: Push notifications example (with server part)
+- animation screencast

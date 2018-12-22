@@ -1,0 +1,12 @@
+
+- collection
+- schematic - set of rules perform
+- rule - set of action
+    - chain
+    - branchAndMerge
+    - template
+    - filter
+    - noop
+    - move
+    - schematic - to run another schematic
+    - externalSchematic
