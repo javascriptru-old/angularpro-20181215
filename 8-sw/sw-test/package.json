@@ -8,8 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dopush": "web-push send-notification --endpoint='https://fcm.googleapis.com/fcm/send/dTM7DeiwRBU:APA91bG4EaXwlB6YPXtQlFNY12punngzkU0x3xXXShvGp5LZSbh1qYKRv9_tp0Fte56UbyjkefJIIVspuuGeWW8MZNV9zU1tSAj5fvKgPpQhEio1J3Ti8O_gKbc4uIt2bceQJFusLodV' 
-    --key='BApji_7pcT6k0-BpyVED_xS0RZuz3rxjRYLSwB_Y683SXWrQ6xcVK8PCP_qlM95S-dryyyXSvuHF6JEBW99M6zA' --auth='t4ziZoITlqFKXGU6OYjEcA' --payload='{\"message\": \"test\"}' --vapid-subject='https://localhost:8080' --vapid-pubkey='BDvmxd_PZxD2s5pYKR5td2WZARaf4hDb6nNU_5dHnhpXonUwL2DOw5kqhzc3rj7vfGChe0cAipocAsbWdw64ltM' --vapid-pvtkey='NMECbSLA5Xp6a1O5outyzTSZS5xRzozVRTE3Yg7VP3Q'"
+    "dopush": "web-push send-notification --endpoint='https://fcm.googleapis.com/fcm/send/dTM7DeiwRBU:APA91bG4EaXwlB6YPXtQlFNY12punngzkU0x3xXXShvGp5LZSbh1qYKRv9_tp0Fte56UbyjkefJIIVspuuGeWW8MZNV9zU1tSAj5fvKgPpQhEio1J3Ti8O_gKbc4uIt2bceQJFusLodV' --key='BApji_7pcT6k0-BpyVED_xS0RZuz3rxjRYLSwB_Y683SXWrQ6xcVK8PCP_qlM95S-dryyyXSvuHF6JEBW99M6zA' --auth='t4ziZoITlqFKXGU6OYjEcA' --payload='{\"message\": \"test\"}' --vapid-subject='https://localhost:8080' --vapid-pubkey='BDvmxd_PZxD2s5pYKR5td2WZARaf4hDb6nNU_5dHnhpXonUwL2DOw5kqhzc3rj7vfGChe0cAipocAsbWdw64ltM' --vapid-pvtkey='NMECbSLA5Xp6a1O5outyzTSZS5xRzozVRTE3Yg7VP3Q'"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +24,9 @@
     "@angular/router": "~7.0.0",
     "@angular/service-worker": "~7.0.0",
     "core-js": "^2.5.4",
+    "express": "4.16.4",
     "rxjs": "~6.3.3",
+    "web-push": "3.3.3",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
